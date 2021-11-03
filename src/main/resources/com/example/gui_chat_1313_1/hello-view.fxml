@@ -4,17 +4,17 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_chat_1313_1.HelloController">
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="20.0" style="-fx-background-color: #31583b;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_chat_1313_1.HelloController">
     <padding>
         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
     </padding>
    <children>
-      <Button fx:id="myConnectButton" onAction="#myConnect" mnemonicParsing="false" prefHeight="25.0" prefWidth="276.0" text="Соединиться с сервером" />
+      <Button fx:id="myConnectButton" mnemonicParsing="false" onAction="#myConnect" prefHeight="25.0" prefWidth="276.0" style="-fx-background-color: #b4d750;" text="Соединиться с сервером" textFill="#cd1724" />
       <TextArea fx:id="myTextArea" prefHeight="200.0" prefWidth="200.0" />
       <HBox prefHeight="0.0" prefWidth="280.0">
          <children>
             <TextField fx:id="myTextField" />
-            <Button fx:id="mySendButton" onAction="#mySend" mnemonicParsing="false" prefHeight="25.0" prefWidth="131.0" text="Отправить" />
+            <Button fx:id="mySendButton" mnemonicParsing="false" onAction="#mySend" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #cd1724;" text="Отправить" textFill="WHITE" />
          </children>
       </HBox>
    </children>
